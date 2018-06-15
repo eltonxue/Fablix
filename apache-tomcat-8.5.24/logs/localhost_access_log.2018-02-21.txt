@@ -1,0 +1,1 @@
+0:0:0:0:0:0:0:1 - - [21/Feb/2018:19:05:45 -0800] "POST /Project1/LoginEmployee HTTP/1.1" 200 73

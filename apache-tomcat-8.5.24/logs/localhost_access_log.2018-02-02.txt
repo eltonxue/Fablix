@@ -1,0 +1,6 @@
+127.0.0.1 - - [02/Feb/2018:18:32:23 -0800] "GET / HTTP/1.1" 200 11452
+0:0:0:0:0:0:0:1 - - [02/Feb/2018:18:32:24 -0800] "GET /Project1/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Feb/2018:18:32:24 -0800] "GET /Project1/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Feb/2018:18:37:04 -0800] "POST /Project1/Login HTTP/1.1" 200 109
+0:0:0:0:0:0:0:1 - - [02/Feb/2018:18:42:36 -0800] "POST /Project1/Search?year=2001&title=hello&director=water HTTP/1.1" 200 50
+0:0:0:0:0:0:0:1 - - [02/Feb/2018:18:50:47 -0800] "POST /Project1/Search?year=2001&title=hello&director=water&star=jonathan HTTP/1.1" 200 68

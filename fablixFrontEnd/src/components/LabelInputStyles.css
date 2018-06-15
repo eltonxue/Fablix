@@ -1,0 +1,49 @@
+
+.input-field::-webkit-inner-spin-button,
+.input-field::-webkit-outer-spin-button {
+  opacity: 0;
+}
+
+.label-input-container {
+  margin: 10px;
+  margin-bottom: 12px;
+}
+
+.input-container {
+  border: 1px solid #666666;
+  border-radius: 0.4em;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.input-label {
+  color: #666666;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.input-field {
+  font-family: sans-serif;
+  padding: 8px 0;
+  margin: 0;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  border: none;
+  width: 85%;
+}
+
+
+.label-icon {
+  color: #666666;
+}
+
+.selected {
+  color: #a490bb;
+  border-color: #a490bb;
+}
+
+.input-field:focus {
+    outline: none;
+}

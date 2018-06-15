@@ -1,0 +1,662 @@
+21-Jan-2018 20:17:57.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:17:57.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:17:57.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/conf/logging.properties
+21-Jan-2018 20:17:57.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jan-2018 20:17:57.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jan-2018 20:17:57.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jan-2018 20:17:57.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jan-2018 20:17:57.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:17:57.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:17:57.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/temp
+21-Jan-2018 20:17:57.731 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Jan-2018 20:17:57.974 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:17:58.015 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jan-2018 20:17:58.025 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:17:58.026 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jan-2018 20:17:58.028 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 928 ms
+21-Jan-2018 20:17:58.058 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jan-2018 20:17:58.058 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+21-Jan-2018 20:17:58.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/docs]
+21-Jan-2018 20:17:58.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/docs] has finished in [521] ms
+21-Jan-2018 20:17:58.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/manager]
+21-Jan-2018 20:17:58.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/manager] has finished in [38] ms
+21-Jan-2018 20:17:58.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/examples]
+21-Jan-2018 20:17:59.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/examples] has finished in [419] ms
+21-Jan-2018 20:17:59.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/ROOT]
+21-Jan-2018 20:17:59.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/ROOT] has finished in [20] ms
+21-Jan-2018 20:17:59.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/host-manager]
+21-Jan-2018 20:17:59.092 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/host-manager] has finished in [23] ms
+21-Jan-2018 20:17:59.095 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:17:59.103 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:17:59.108 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1079 ms
+21-Jan-2018 20:18:22.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Jan-2018 20:18:22.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jan-2018 20:18:22.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:18:22.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:18:22.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/conf/logging.properties
+21-Jan-2018 20:18:22.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/temp
+21-Jan-2018 20:18:22.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Jan-2018 20:18:22.632 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:22.653 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+21-Jan-2018 20:18:22.654 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:18:22.655 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+21-Jan-2018 20:18:22.656 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 491 ms
+21-Jan-2018 20:18:22.684 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jan-2018 20:18:22.684 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+21-Jan-2018 20:18:22.690 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/docs]
+21-Jan-2018 20:18:22.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/docs] has finished in [263] ms
+21-Jan-2018 20:18:22.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/manager]
+21-Jan-2018 20:18:22.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/manager] has finished in [44] ms
+21-Jan-2018 20:18:22.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/examples]
+21-Jan-2018 20:18:23.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/examples] has finished in [243] ms
+21-Jan-2018 20:18:23.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/ROOT]
+21-Jan-2018 20:18:23.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/ROOT] has finished in [13] ms
+21-Jan-2018 20:18:23.256 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/host-manager]
+21-Jan-2018 20:18:23.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/host-manager] has finished in [15] ms
+21-Jan-2018 20:18:23.274 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 618 ms
+21-Jan-2018 20:18:23.280 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+21-Jan-2018 20:18:23.281 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:23.281 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:18:23.281 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jan-2018 20:18:23.307 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:23.307 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:23.307 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:18:23.308 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:18:40.332 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Jan-2018 20:18:40.332 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:42.340 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:18:44.345 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jan-2018 20:18:44.367 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:46.382 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:18:48.391 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:18:48.394 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:19:01.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jan-2018 20:19:01.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:19:01.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:19:01.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/conf/logging.properties
+21-Jan-2018 20:19:01.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/temp
+21-Jan-2018 20:19:01.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Jan-2018 20:19:01.995 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:19:02.026 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jan-2018 20:19:02.032 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:19:02.034 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jan-2018 20:19:02.034 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 596 ms
+21-Jan-2018 20:19:02.058 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jan-2018 20:19:02.058 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+21-Jan-2018 20:19:02.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/docs]
+21-Jan-2018 20:19:02.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/docs] has finished in [309] ms
+21-Jan-2018 20:19:02.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/manager]
+21-Jan-2018 20:19:02.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/manager] has finished in [48] ms
+21-Jan-2018 20:19:02.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/examples]
+21-Jan-2018 20:19:02.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/examples] has finished in [398] ms
+21-Jan-2018 20:19:02.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/ROOT]
+21-Jan-2018 20:19:02.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/ROOT] has finished in [18] ms
+21-Jan-2018 20:19:02.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/host-manager]
+21-Jan-2018 20:19:02.860 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/apache-tomcat-8.5.24/webapps/host-manager] has finished in [21] ms
+21-Jan-2018 20:19:02.862 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 20:19:02.869 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 20:19:02.871 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 836 ms
+21-Jan-2018 21:48:42.138 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Jan-2018 21:48:42.273 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 21:48:44.347 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 21:48:46.349 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jan-2018 21:48:46.521 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 21:48:48.544 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jan-2018 21:48:50.549 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Jan-2018 21:48:50.552 SEVERE [main] org.apache.catalina.core.StandardService.destroyInternal Failed to destroy connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to destroy component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:302)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:571)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:883)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler destroy failed
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1050)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	... 12 more
+Caused by: java.io.IOException: Thread signal failed
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at sun.nio.ch.ServerSocketAdaptor.close(ServerSocketAdaptor.java:137)
+	at org.apache.tomcat.util.net.NioEndpoint.unbind(NioEndpoint.java:313)
+	at org.apache.tomcat.util.net.AbstractEndpoint.destroy(AbstractEndpoint.java:1206)
+	at org.apache.coyote.AbstractProtocol.destroy(AbstractProtocol.java:647)
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1048)
+	... 13 more
+
+21-Jan-2018 21:48:50.555 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Jan-2018 13:23:31.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+22-Jan-2018 13:23:31.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+22-Jan-2018 13:23:31.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+22-Jan-2018 13:23:31.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+22-Jan-2018 13:23:31.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+22-Jan-2018 13:23:31.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/conf/logging.properties
+22-Jan-2018 13:23:31.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jan-2018 13:23:31.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Jan-2018 13:23:31.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jan-2018 13:23:31.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Jan-2018 13:23:31.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+22-Jan-2018 13:23:31.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+22-Jan-2018 13:23:31.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/temp
+22-Jan-2018 13:23:31.226 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Jan-2018 13:23:31.342 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Jan-2018 13:23:31.365 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+22-Jan-2018 13:23:31.366 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Jan-2018 13:23:31.367 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+22-Jan-2018 13:23:31.368 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 524 ms
+22-Jan-2018 13:23:31.399 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Jan-2018 13:23:31.399 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+22-Jan-2018 13:23:31.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs]
+22-Jan-2018 13:23:31.708 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs] has finished in [303] ms
+22-Jan-2018 13:23:31.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager]
+22-Jan-2018 13:23:31.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager] has finished in [78] ms
+22-Jan-2018 13:23:31.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples]
+22-Jan-2018 13:23:32.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples] has finished in [401] ms
+22-Jan-2018 13:23:32.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT]
+22-Jan-2018 13:23:32.241 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT] has finished in [52] ms
+22-Jan-2018 13:23:32.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager]
+22-Jan-2018 13:23:32.279 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager] has finished in [35] ms
+22-Jan-2018 13:23:32.282 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 913 ms
+22-Jan-2018 13:23:32.291 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+22-Jan-2018 13:23:32.292 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Jan-2018 13:23:32.292 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Jan-2018 13:23:32.292 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Jan-2018 13:23:32.323 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Jan-2018 13:23:32.324 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Jan-2018 13:23:32.324 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Jan-2018 13:23:32.324 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:00:53.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+30-Jan-2018 01:00:53.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+30-Jan-2018 01:00:53.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+30-Jan-2018 01:00:53.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Jan-2018 01:00:53.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+30-Jan-2018 01:00:53.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Jan-2018 01:00:53.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+30-Jan-2018 01:00:53.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+30-Jan-2018 01:00:53.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2018 01:00:53.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:00:53.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:00:53.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/conf/logging.properties
+30-Jan-2018 01:00:53.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2018 01:00:53.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jan-2018 01:00:53.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jan-2018 01:00:53.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jan-2018 01:00:53.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:00:53.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:00:53.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/temp
+30-Jan-2018 01:00:53.912 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Jan-2018 01:00:54.293 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:00:54.332 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2018 01:00:54.357 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:00:54.360 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2018 01:00:54.361 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2426 ms
+30-Jan-2018 01:00:54.490 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jan-2018 01:00:54.490 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+30-Jan-2018 01:00:54.530 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/TomcatTest.war]
+30-Jan-2018 01:00:55.856 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2018 01:00:55.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/TomcatTest.war] has finished in [1,388] ms
+30-Jan-2018 01:00:55.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs]
+30-Jan-2018 01:00:55.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs] has finished in [24] ms
+30-Jan-2018 01:00:55.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager]
+30-Jan-2018 01:00:56.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager] has finished in [190] ms
+30-Jan-2018 01:00:56.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples]
+30-Jan-2018 01:00:57.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples] has finished in [904] ms
+30-Jan-2018 01:00:57.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT]
+30-Jan-2018 01:00:57.062 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT] has finished in [23] ms
+30-Jan-2018 01:00:57.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager]
+30-Jan-2018 01:00:57.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager] has finished in [150] ms
+30-Jan-2018 01:00:57.216 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:00:57.223 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:00:57.225 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2863 ms
+30-Jan-2018 01:01:22.516 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/TomcatTest]
+30-Jan-2018 01:01:37.271 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jan-2018 01:01:37.272 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:01:39.277 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:01:41.284 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jan-2018 01:01:41.369 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:01:43.377 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:01:45.383 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:01:45.385 SEVERE [main] org.apache.catalina.core.StandardService.destroyInternal Failed to destroy connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to destroy component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:302)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:571)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:883)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler destroy failed
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1050)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	... 12 more
+Caused by: java.io.IOException: Thread signal failed
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at sun.nio.ch.ServerSocketAdaptor.close(ServerSocketAdaptor.java:137)
+	at org.apache.tomcat.util.net.NioEndpoint.unbind(NioEndpoint.java:313)
+	at org.apache.tomcat.util.net.AbstractEndpoint.destroy(AbstractEndpoint.java:1206)
+	at org.apache.coyote.AbstractProtocol.destroy(AbstractProtocol.java:647)
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1048)
+	... 13 more
+
+30-Jan-2018 01:01:45.386 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:31:30.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+30-Jan-2018 01:31:30.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+30-Jan-2018 01:31:30.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+30-Jan-2018 01:31:30.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Jan-2018 01:31:30.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+30-Jan-2018 01:31:30.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Jan-2018 01:31:30.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+30-Jan-2018 01:31:30.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+30-Jan-2018 01:31:30.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2018 01:31:30.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:31:30.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:31:30.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/conf/logging.properties
+30-Jan-2018 01:31:30.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2018 01:31:30.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jan-2018 01:31:30.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jan-2018 01:31:30.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jan-2018 01:31:30.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:31:30.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 01:31:30.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/temp
+30-Jan-2018 01:31:30.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Jan-2018 01:31:30.962 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:31:31.001 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+30-Jan-2018 01:31:31.003 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:31:31.004 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+30-Jan-2018 01:31:31.005 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1727 ms
+30-Jan-2018 01:31:31.045 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jan-2018 01:31:31.046 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+30-Jan-2018 01:31:31.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs]
+30-Jan-2018 01:31:31.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs] has finished in [759] ms
+30-Jan-2018 01:31:31.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager]
+30-Jan-2018 01:31:31.965 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager] has finished in [145] ms
+30-Jan-2018 01:31:31.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples]
+30-Jan-2018 01:31:32.724 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples] has finished in [758] ms
+30-Jan-2018 01:31:32.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT]
+30-Jan-2018 01:31:32.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT] has finished in [19] ms
+30-Jan-2018 01:31:32.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager]
+30-Jan-2018 01:31:32.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager] has finished in [72] ms
+30-Jan-2018 01:31:32.827 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1820 ms
+30-Jan-2018 01:31:32.832 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+30-Jan-2018 01:31:32.833 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:31:32.833 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:31:32.833 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jan-2018 01:31:33.054 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:31:33.054 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 01:31:33.054 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 01:31:33.055 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 02:08:22.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+30-Jan-2018 02:08:22.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+30-Jan-2018 02:08:22.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2018 02:08:22.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 02:08:22.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 02:08:22.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/conf/logging.properties
+30-Jan-2018 02:08:22.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2018 02:08:22.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jan-2018 02:08:22.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jan-2018 02:08:22.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jan-2018 02:08:22.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 02:08:22.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24
+30-Jan-2018 02:08:22.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/temp
+30-Jan-2018 02:08:22.993 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/eltonxue/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Jan-2018 02:08:23.490 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 02:08:23.698 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2018 02:08:23.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 02:08:23.713 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2018 02:08:23.714 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2212 ms
+30-Jan-2018 02:08:23.759 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jan-2018 02:08:23.760 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+30-Jan-2018 02:08:23.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs]
+30-Jan-2018 02:08:24.636 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [101] milliseconds.
+30-Jan-2018 02:08:24.753 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/docs] has finished in [985] ms
+30-Jan-2018 02:08:24.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager]
+30-Jan-2018 02:08:25.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/manager] has finished in [346] ms
+30-Jan-2018 02:08:25.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples]
+30-Jan-2018 02:08:25.967 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/examples] has finished in [846] ms
+30-Jan-2018 02:08:25.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT]
+30-Jan-2018 02:08:25.988 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/ROOT] has finished in [20] ms
+30-Jan-2018 02:08:25.988 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager]
+30-Jan-2018 02:08:26.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/eltonxue/Documents/UCI/UCI Academics/2018 Winter Quarter/CS122B/cs122b-winter18-team-82/apache-tomcat-8.5.24/webapps/host-manager] has finished in [21] ms
+30-Jan-2018 02:08:26.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 02:08:26.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 02:08:26.021 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2306 ms
+30-Jan-2018 02:09:49.560 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jan-2018 02:09:49.561 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 02:09:51.567 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 02:09:53.568 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jan-2018 02:09:53.624 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 02:09:55.632 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2018 02:09:57.639 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jan-2018 02:09:57.641 SEVERE [main] org.apache.catalina.core.StandardService.destroyInternal Failed to destroy connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to destroy component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:302)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:571)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:883)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler destroy failed
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1050)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	... 12 more
+Caused by: java.io.IOException: Thread signal failed
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at sun.nio.ch.ServerSocketAdaptor.close(ServerSocketAdaptor.java:137)
+	at org.apache.tomcat.util.net.NioEndpoint.unbind(NioEndpoint.java:313)
+	at org.apache.tomcat.util.net.AbstractEndpoint.destroy(AbstractEndpoint.java:1206)
+	at org.apache.coyote.AbstractProtocol.destroy(AbstractProtocol.java:647)
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1048)
+	... 13 more
+
+30-Jan-2018 02:09:57.644 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

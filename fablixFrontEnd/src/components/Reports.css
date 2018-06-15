@@ -1,0 +1,20 @@
+.report-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px;
+}
+
+.report-container h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+.report-container p {
+  font-size: 25px;
+  width: 60%;
+  text-align: center;
+  line-height: 40px;
+}

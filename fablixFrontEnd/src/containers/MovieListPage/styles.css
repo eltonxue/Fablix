@@ -1,0 +1,264 @@
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #e5e3f1;
+  font-family: 'Nunito', sans-serif;
+}
+
+.page-title {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 25px;
+}
+
+.movies-list-container {
+  padding-top: 75px;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-container {
+  background-color: white;
+  width: 90%;
+  font-family: 'Nunito', sans-serif;
+  padding: 25px 55px;
+}
+
+.movie-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-title {
+  letter-spacing: 5px;
+}
+
+.movie-title:hover {
+  cursor: pointer;
+  color: darkgrey;
+
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.movie-rating {
+  font-size: 60px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #5666a8;
+}
+
+.movie-rating-alternate {
+  background-color: #d1bcdd;
+}
+
+.movie-star {
+  margin: 10px 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #9792ba;
+
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.movie-star-alternate {
+  background-color: lightgrey;
+}
+
+.movie-star:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.movie-star-alternate:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.movie-genre {
+  margin: 10px 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #9792ba;
+
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.movie-genre-alternate {
+  background-color: lightgrey;
+}
+
+.movie-genre:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.movie-genre-alternate:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.movie-container-alternate {
+  background-color: #432772;
+  color: white;
+}
+
+.add-to-cart {
+  float: right;
+}
+
+.add-to-cart-button {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #e39088;
+  color: white;
+  border-radius: 0.5em;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 50px;
+  height: 50px;
+  width: 200px;
+}
+
+.button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 0px 5px;
+}
+
+.action-bar-container {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+.action-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #b6b3f6;
+  padding-top: 10px;
+}
+
+.prev-next-container {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prev-next-container > .button {
+  border-radius: 0px;
+  background-color: #9792ba;
+}
+
+.pagination-bar-container {
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.pagination-bar {
+  display: flex;
+  width: 100%;
+  background-color: #4a1370;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.page-number {
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  padding: 5px 10px;
+  color: black;
+  margin: 5px;
+
+  transition-property: background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.page-number-active {
+  background-color: #262524;
+  color: white;
+}
+
+.page-number:hover {
+  background-color: #262524;
+  cursor: pointer;
+  color: white;
+}
+
+.action {
+  text-align: center;
+  padding: 10px;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.action:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.action-per-page {
+  text-align: center;
+  background-color: #b6b3f6;
+  padding: 5px;
+}
+
+.n {
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+  padding: 5px 10px;
+
+  transition-property: background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.n-active {
+  background-color: #262524;
+  color: white;
+}
+
+.n:hover {
+  background-color: #262524;
+  color: white;
+  cursor: pointer;
+}
+
+.large-icon {
+  font-size: 30px;
+}

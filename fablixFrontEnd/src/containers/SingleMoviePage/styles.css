@@ -1,0 +1,10 @@
+.single-movie-container {
+  padding-top: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.single-movie {
+  width: 50%;
+}

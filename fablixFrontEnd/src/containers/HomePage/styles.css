@@ -1,0 +1,90 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.full-text-search-container {
+  min-width: 400px;
+  width: 30%;
+  display: flex;
+  background-color: white;
+  padding: 30px 150px;
+  border-radius: 25px;
+  margin: 170px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.redirects-container {
+  min-width: 400px;
+  width: 30%;
+  display: flex;
+  background-color: white;
+  padding: 20px 150px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redirects-title {
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  border: none;
+}
+
+.buttons-container:hover {
+  cursor: pointer;
+}
+
+.search-bar-container {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+  padding-left: 30px;
+}
+
+.autocomplete-field {
+  width: 300px;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #E5E3F1;
+}
+
+.redirect {
+  font-weight: lighter;
+  margin: 50px;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+  display: flex;
+
+  transition: background-color 0.1s linear, color 0.1s linear;
+}
+
+.redirect:hover {
+  background-color: black;
+  color: white;
+}
+
+.autocomplete-header {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.autocom-item:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [04/Feb/2018:14:31:56 -0800] "POST /Project1/Search?year=2001&title=hello&director=water&star=jonathan HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [04/Feb/2018:14:32:00 -0800] "GET /Project1/Search?year=2001&title=hello&director=water&star=jonathan HTTP/1.1" 200 68

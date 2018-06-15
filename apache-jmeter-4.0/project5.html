@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+   background-color: linen;
+}
+td {
+   border-top-style: solid;
+}
+</style>
+</head>
+<body>
+<table style="width:100%">
+ <tr style="font-weight:bold; background-color: orange">
+   <td width="300px">Single-instance version cases</td>
+   <td>Graph Results Screenshot</td>
+   <td>Average Query Time(ms)</td>
+   <td>Average Search Servlet Time(ms)</td>
+   <td>Average JDBC Time(ms)</td>
+   <td>Analysis</td>
+ </tr>
+ <tr>
+   <td>Case 1: HTTP/1 thread</td>
+   <td><img src="single_HTTP_1thread.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+   <td>28</td>
+   <td>3.02</td>
+   <td>2.97</td>
+   <td>In this test, we analyze that both the average search servlet time and the average JDBC time is lower than most. With this, I can assume that the average query time decreases as the the amount of threads used are less.</td>
+ </tr>
+ <tr>
+   <td>Case 2: HTTP/10 threads</td>
+   <td><img src="single_HTTP_10threads.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+   <td>35</td>
+   <td>9.22</td>
+   <td>9.19</td>
+   <td>In this test, the average query time is near the middle compared to other instances. We are using connection pooling and prepared statements, so those also decrease the overall time needed to run the test.</td>
+ </tr>
+ <tr>
+   <td>Case 3: HTTPS/10 threads</td>
+   <td><img src="single_HTTPS_10threads.png" alt="Graph Results Screenshot Case 3" style="width:304px;height:228px;"></td>
+   <td>45</td>
+   <td>10.51</td>
+   <td>10.47</td>
+   <td>With HTTPS, although still using connection pooling and prepared statements, it takes a little bit longer than regular HTTP. We assume the reason for this is because it takes a little longer to create a secure connection for accessing the website.</td>
+ </tr>
+ <tr>
+   <td>Case 4: HTTP/10 threads/No prepared statements</td>
+   <td><img src="single_HTTP_10threads_no_pst.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+   <td>58</td>
+   <td>31.84</td>
+   <td>21.60</td>
+   <td>No prepared statements seem to significantly cause the speed of the test to run a lot slower. We assume the reason for this is because it requires us to create new statements everytime the query runs once. We are not able to reuse the statements as if they were already prepared. </td>
+ </tr>
+ <tr>
+   <td>Case 5: HTTP/10 threads/No connection pooling</td>
+   <td><img src="single_HTTP_10threads_no_pooling.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+   <td>46</td>
+   <td>12.26</td>
+   <td>12.21</td>
+   <td>In this test, we got rid of pooling in the single instance. Connection pooling seems to slightly help the speed of the test. The reason for this is because we can reuse database connections for different requests. In other words, we only need to create 1 connection and then use that connection multiple times (in our case 2650 times) for each movie request search.</td>
+ </tr>
+</table>
+<table style="width:100%">
+ <tr style="font-weight:bold; background-color: orange">
+   <td width="300px">Scaled version cases</td>
+   <td>Graph Results Screenshot</td>
+   <td>Average Query Time(ms)</td>
+   <td>Average Search Servlet Time(ms)</td>
+   <td>Average JDBC Time(ms)</td>
+   <td>Analysis</td>
+ </tr>
+ <tr>
+   <td>Case 1: HTTP/1 thread</td>
+   <td><img src="scaled_HTTP_1thread.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+   <td>31</td>
+   <td>3.30</td>
+   <td>3.22</td>
+   <td>This test also reaffirms the idea that less threads mean quicker test runs. The test speed here that is scaled is similar to the single instance, but varies slightly by ~.2ms, which is hardly noticeable. We assume that this is because the test is not large enough to see the difference.</td>
+ </tr>
+ <tr>
+   <td>Case 2: HTTP/10 threads</td>
+   <td><img src="scaled_HTTP_10threads.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+   <td>37</td>
+   <td>8.89</td>
+   <td>8.8</td>
+   <td>From this test, it is slightly quicker than its single instance counterpart. The difference is minimal at around ~.3ms, but still shows that the scaled instance with master and slaves are quicker.</td>
+ </tr>
+ <tr>
+   <td>Case 3: HTTP/10 threads/No prepared statements</td>
+   <td><img src="scaled_HTTP_10threads_no_pst.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+   <td>36</td>
+   <td>9.64</td>
+   <td>9.57</td>
+   <td>Very similar to the single instance, prepared statements seem to have a large impact on the speed of the test. Seeing the average times, we notice that prepared statements with the scaled instance is faster than the single instance.</td>
+ </tr>
+ <tr>
+   <td>Case 4: HTTP/10 threads/No connection pooling</td>
+   <td><img src="scaled_HTTP_10threads_no_pooling.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+   <td>42</td>
+   <td>16.60</td>
+   <td>14.80</td>
+   <td>No connection pooling with the scaled instance shows that it is faster. In our specific test, it seems like in the scaled instance, the connection pooling has a larger impact on the speed than the prepared statements compared to the single instance. The reason for this isn't quite clear, but we assume that it has to relate to the fact that we use master and slaves.</td>
+ </tr>
+</table>
+</body>
+</html>

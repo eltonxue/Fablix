@@ -1,0 +1,35 @@
+.non-edit-cart-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px #cccccc solid;
+}
+
+.num {
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+#last-item {
+  border-bottom: 0px;
+}
+
+.cart-movie-info {
+  margin-left: 20px;
+  font-weight: 400;
+}
+.cart-movie-non {
+  margin: 8px 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+
+}
+
+.cart-director {
+  margin: 0;
+}
+.cart-rating {
+  margin: 0;
+}
